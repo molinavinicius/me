@@ -197,19 +197,19 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 60vh;
+    background: #000;
   background-size: cover;
-}
-#hero:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  padding: 0;
+  }
+  
+  /* Background Animation  # https://codepen.io/lsammarco/pen/waMpJw */
+  #hero .hero-background {
+    width: 100%;
+    height: 60vh;
+    /*Fallback if gradeints don't work */
+    background: #142557;
+    background: radial-gradient(at center, #4b53a5, #142557);
 }
 #hero .hero-container {
   position: relative;
@@ -318,7 +318,6 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/

@@ -253,4 +253,15 @@
     })
   });
 
+  let heroBackground = document.getElementsByClassName('hero-background')[0]
+  
+  heroBackground.addEventListener('mousemove',event => {
+    let windowWidth = window.innerWidth
+    let windowHeight = window.innerHeight
+
+    let mouseXpercentage = Math.round(event.pageX / windowWidth * 100)
+    let mouseYpercentage = Math.round(event.pageY / windowHeight * 100)
+    heroBackground.style.background = `radial-gradient(at ${mouseXpercentage}% ${mouseYpercentage}%, #4b53a5, #142557)`
+  })
+
 })()
