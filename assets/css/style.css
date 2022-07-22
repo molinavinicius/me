@@ -595,10 +595,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.professional-capabilities .icon-box {
   margin-bottom: 20px;
 }
-.services .icon {
+.professional-capabilities .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -610,30 +610,30 @@ section {
   transition: 0.5s;
   border: 1px solid #149ddd;
 }
-.services .icon i {
+.professional-capabilities .icon i {
   color: #fff;
   font-size: 24px;
   line-height: 0;
 }
-.services .icon-box:hover .icon {
+.professional-capabilities .icon-box:hover .icon {
   background: #fff;
 }
-.services .icon-box:hover .icon i {
+.professional-capabilities .icon-box:hover .icon i {
   color: #149ddd;
 }
-.services .title {
+.professional-capabilities .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.services .title a {
+.professional-capabilities h4{
   color: #343a40;
 }
-.services .title a:hover {
+.professional-capabilities h4:hover {
   color: #149ddd;
 }
-.services .description {
+.professional-capabilities .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;

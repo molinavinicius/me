@@ -497,6 +497,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-credit-card-fill::before { content: "\f2db"; }
 .bi-credit-card::before { content: "\f2dc"; }
 .bi-crop::before { content: "\f2dd"; }
+.bi-cup-hot::before {content: "\f7eb";}
 .bi-cup-fill::before { content: "\f2de"; }
 .bi-cup-straw::before { content: "\f2df"; }
 .bi-cup::before { content: "\f2e0"; }
